@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/zhaz4965/public_html/Quran-Digital-PHP/
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp detail.php $DEPLOYPATH
     - /bin/cp koneksi.php $DEPLOYPATH

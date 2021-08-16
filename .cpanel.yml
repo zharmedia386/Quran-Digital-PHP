@@ -5,4 +5,6 @@ deployment:
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp detail.php $DEPLOYPATH
     - /bin/cp koneksi.php $DEPLOYPATH
-    - /bin/cp - R assets $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp LICENSE $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
